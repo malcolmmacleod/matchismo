@@ -28,6 +28,7 @@
     else {
         [self.cards addObject:card];
     }
+    NSLog(@"Added card %@", card);
 }
 
 - (Card *) drawRandomCard {
